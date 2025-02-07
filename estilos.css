@@ -1,18 +1,3 @@
-#input {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 20px;
-    border-radius: 10px;
-}
-.rojo {
-    color: red;
-}
-.azul {
-    color: blue;
-}
-.verde {
-    color: rgb(130, 198, 27);
-}
 body {
     height: 100vh;
     margin: auto;
@@ -23,4 +8,42 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
+}
+#input {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+}
+#inputUser, #inputPass{
+    padding: 5px;
+    border-radius: 20px;
+    border-color: black;
+}
+#inputUser:focus{
+    background-color: lightgray;
+}
+#inputPass:focus{
+    background-color: lightgray;
+}
+button{
+    padding: 5px 0px;
+    width: 176px;
+    border-radius: 20px;
+}
+button:disabled {
+    background-color: red;
+}
+button:enabled {
+    background-color: green;
+    color:white
+}
+.rojo {
+    color: red;
+}
+.azul {
+    color: blue;
+}
+.verde {
+    color: rgb(130, 198, 27);
 }
