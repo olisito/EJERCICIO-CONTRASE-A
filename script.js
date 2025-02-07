@@ -5,7 +5,7 @@ function contraseña() {
     if (longitud <= 8) {
         parrafo.innerHTML = "contraseña NO segura";
         parrafo.setAttribute("class", "rojo");
-    } else if (longitud > 8 && longitud <= 10) {
+    } else if (longitud > 8 && longitud <= 11) {
         parrafo.innerHTML = "contraseña CASI segura";
         parrafo.setAttribute("class", "azul");
     } else {

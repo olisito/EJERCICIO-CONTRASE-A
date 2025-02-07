@@ -12,3 +12,14 @@
 .verde {
     color: rgb(130, 198, 27);
 }
+body {
+    height: 100vh;
+    margin: auto;
+}
+#contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
